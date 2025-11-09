@@ -5,9 +5,9 @@ export default function Hero() {
     <section
     id="home" className="min-h-screen flex flex-col md:flex-row items-center justify-center px-8 md:px-20"
   >
-    {/* LEFT: Logo and Mandala */}
+
 <div className="flex-1 flex items-center justify-center relative">
-  {/* Mandala background */}
+
   <img
   src="/mandala.svg"
   alt="Mandala"
@@ -15,7 +15,7 @@ export default function Hero() {
   loading="lazy"
 />
 
-  {/* V Films Logo overlay */}
+
   <img
     src="/VFilm.png"
     alt="V Films Logo"
@@ -23,9 +23,9 @@ export default function Hero() {
   />
 </div>
 
-    {/* RIGHT: Text section */}
+
     <div className="flex-1 text-center md:text-left mt-10 md:mt-0 space-y-6">
-      {/* Tagline */}
+
       <h2 className="text-3xl md:text-4xl font-island leading-snug text-gray-800">
   Varnan is where stories find <br /> their voice and form
 </h2>
@@ -35,7 +35,7 @@ export default function Hero() {
   <span className="text-[#ff5733]">·</span> Art
 </h3>
 
-      {/* Description */}
+
       <p className="text-gray-700 max-w-lg leading-relaxed text-sm md:text-base">
         Since 2009, V’ve been telling stories — stories of people,
         their journeys, and the places that shape them. Some begin in
