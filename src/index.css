@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('/BG.svg');
+
+}
+
+@keyframes spin-anticlockwise {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.animate-spin-anticlockwise {
+  animation: spin-anticlockwise 25s linear infinite;
+}
